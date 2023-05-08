@@ -1,8 +1,8 @@
-import * as duckdb from '@duckdb/duckdb-wasm';
-import duckdb_wasm from '/node_modules/@duckdb/duckdb-wasm/dist/duckdb-mvp.wasm?url';
-import duckdb_worker from '/node_modules/@duckdb/duckdb-wasm/dist/duckdb-browser-mvp.worker.js?worker';
+import * as duckdb from '@carlop/duckdb-wasm';
+import duckdb_wasm from '/node_modules/@carlop/duckdb-wasm/dist/duckdb-mvp.wasm?url';
+import duckdb_worker from '/node_modules/@carlop/duckdb-wasm/dist/duckdb-browser-mvp.worker.js?worker';
 
-import type { AsyncDuckDB } from '@duckdb/duckdb-wasm';
+import type { AsyncDuckDB } from '@carlop/duckdb-wasm';
 
 let db: AsyncDuckDB | null = null;
 
